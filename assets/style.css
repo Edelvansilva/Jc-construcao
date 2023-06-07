@@ -145,6 +145,16 @@ img {
     
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+
 .offerservice {
     display: flex;
     gap: 50px;
@@ -190,6 +200,15 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.action-img{
+    width: 50%;
+}
+.action img {
+    
+    width: 400px;
+    height: 600px;
+
 }
 
 .action-text {
@@ -249,7 +268,7 @@ img {
 .sobre-items  {
     width: 45%;
     height: 349px;
-    background-image: url(./toppng.com-bandeiras-cartão-1200x183.png);
+    background-image: url(./bandeiras\ -cartoes.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size:contain;
