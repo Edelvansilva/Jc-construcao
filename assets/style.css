@@ -107,6 +107,11 @@ p {
     padding: 24px;
 }
 
+
+.service-card>button>a{
+    color: black;
+}
+
 i  {
     background: green;
     border-radius: 50%;
@@ -234,6 +239,10 @@ a:hover{
     border: none;
 }
 
+.action-text button>a{
+    color: black;
+}
+
 .sobre {
     width: 100vw;
     height: 800px;
@@ -281,6 +290,10 @@ a:hover{
 @media screen and (max-width: 480px) {
     .offerservice {
       flex-direction: column;
+    }
+
+    h1{
+        padding-top: 60px;
     }
 
     .service-card {
